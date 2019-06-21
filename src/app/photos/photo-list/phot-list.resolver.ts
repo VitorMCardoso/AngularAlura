@@ -1,6 +1,6 @@
 import { PhotoService } from '../photo/photo.service';
 import { Injectable } from '@angular/core';
-import { Resolve } from '@angular/router';
+import { Resolve, RouterStateSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { Photo } from '../photo/photo';
 
